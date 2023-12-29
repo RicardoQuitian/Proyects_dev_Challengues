@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(236, 228, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.target {
+    background-color: rgb(248, 246, 246);
+    width: 378px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente los elementos dentro del cuerpo */
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(137, 7, 7, 0.1); /* Sombras */
+}
+
+.img {
+    width: 336px;
+    height: 152px;
+    border-radius: 20px;
+    padding-top: 18px;
+}
+
+/*justify-content: center;  Centra horizontalmente los elementos dentro del cuerpo */
+
+
+.etiqueta{  
+    border-color: beige;
+    height: 50px;
+    width: 378px;
+    margin: 15px; 
+    border-top: 1px solid #ccc;
+    align-items: center;
+    color: #6C727F;
+}
+
+.title {
+    width: 378px;
+    height: 37px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #20293A;
+}
+
+.content {
+    color: #6C727F ;
+}
+
+p {margin: 10px;}
